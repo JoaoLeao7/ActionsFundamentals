@@ -8,7 +8,9 @@ jobs:
   docker-action:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      
       - name: Run my own container action
         id: hello-action
         uses: ./hello-world-docker-action
