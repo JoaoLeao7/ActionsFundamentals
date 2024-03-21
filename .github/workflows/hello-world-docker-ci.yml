@@ -13,7 +13,7 @@ jobs:
       
       - name: Run my own container action
         id: hello-action
-        uses: ./hello-world-docker-action
+        uses: .github/workflows/hello-world-docker-action
         with:
           who-to-greet: '@Joaoleao7'
 
