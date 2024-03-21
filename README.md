@@ -22,7 +22,7 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 
 ### Day 1: 🚀 Getting started
 
-- [ ] Introduction and Icebreaker
+- [X] Introduction and Icebreaker
 - [ ] GitHub Actions Fundamentals
 - [ ] The YAML syntax
 - [ ] Basic workflow syntax
