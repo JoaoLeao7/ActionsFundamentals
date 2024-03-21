@@ -16,7 +16,7 @@ jobs:
     steps:
       - run: |
           echo " The job was triggered by event  ${{ github.event_name }}
-          echo " The branch that the repository . is referencing to is  ${{ github.ref }}
+          echo " The branch that the repository ${{ github.repository }} is referencing to is  ${{ github.ref }}
 
       - uses: actions/checkout@v4
       - name: List all files
